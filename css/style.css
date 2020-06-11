@@ -1,0 +1,213 @@
+body {
+  width: 100%;
+}
+
+a {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+select,
+input:focus {
+  outline: none;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto 100px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 100px;
+  margin-top: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #87ceeb;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-link {
+  margin-top: 30px;
+  padding: 7px;
+  width: 90px;
+  display: block;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #87ceeb;
+  color: #000000;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  width: calc(100% / 5);
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.company-top th,
+.company-top td {
+  width: calc(100% / 10);
+}
+
+.employee-top th,
+.employee-top td {
+  width: calc(100% / 9);
+}
+
+select {
+  width: 169px;
+  height: 21px;
+}
+
+.address {
+  padding: 10px 100px 10px 10px;
+}
+
+.address-label {
+  margin-right: 30px;
+}
+
+.location-label {
+  margin-right: 60px;
+}
+
+.pref {
+  margin: 10px 0;
+}
+
+.error {
+  margin-top: 10px;
+  color: #d8393c;
+}
+
+.pref-error {
+  margin-bottom: 10px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 5px;
+  color: #d8393c;
+}
+
+.back-page {
+  margin-top: 10px;
+  text-align: end;
+}
+
+.form-search-company {
+  margin-top: 10px;
+}
+
+.btn-search {
+  width: 80px;
+  padding: 2px;
+  border-radius: 10px;
+  border: none;
+  background-color: #87ceeb;
+}
+
+.btn-search:focus {
+  outline: none;
+}
+
+.btn,
+.btn-search:hover {
+  cursor: pointer;
+}
+
+.input-search {
+  padding: 3px;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-search-company {
+  width: 300px;
+}
+
+.form-search-employee {
+  margin-top: 10px;
+  display: flex;
+}
+
+.select-search {
+  height: 27px;
+  padding: 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-employee-result {
+  margin-top: 10px;
+}
+
+.search-employee-element {
+  margin-right: 20px;
+}
+
+.rewrite {
+  margin-top: 5px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.image-top {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.change-img-message {
+  margin: 20px 0 10px;
+}
+
+header {
+  margin: 20px 5%;
+  text-align: right;
+}
+
+.user-name {
+  margin-top: 40px;
+}
+
+.password {
+  margin-top: 5px;
+}
+
+.user-name-label {
+  margin-right: 18px;
+}
+
+.password-label {
+  margin-right: 50px;
+}
+
+.not-found {
+  margin: 60px 0 50px;
+}
